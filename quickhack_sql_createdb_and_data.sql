@@ -3,10 +3,10 @@
 -- Created with contribution from the team
 -- You are free to share, use, change this script under license
 -- i.e., as long as you keep this comment and company and contributor's name
--- 
--- Contribution by: 
+--
+-- Contribution by:
 -- asiftechie, mhk12, obaidchintamen, aliasif2324, rsarwari
--- 
+--
 -- https://www.gnu.org/licenses/gpl-3.0.en.html
 -- ---------------------------------------------------------------------------------
 
@@ -46,4 +46,20 @@ INSERT INTO students VALUES (4, 'obaid', '408something', 'alisomething@somecompa
 
 
 
+DROP  TABLE IF EXISTS courses;
 
+CREATE TABLE courses (
+	id  int NOT NULL AUTO_INCREMENT  PRIMARY KEY,
+	name varchar(100)
+);
+
+INSERT INTO courses VALUES (0, 'python');
+INSERT INTO courses VALUES (0, 'javascript client');
+INSERT INTO courses VALUES (0, 'javascript server');
+INSERT INTO courses VALUES (0, 'mysql');
+INSERT INTO courses VALUES (0, 'java');
+INSERT INTO courses VALUES (0, 'android');
+INSERT INTO courses VALUES (0, 'iOS');
+INSERT INTO courses VALUES (0, 'product management');
+INSERT INTO courses VALUES (0, 'UX');
+INSERT INTO courses VALUES (0, 'project');
